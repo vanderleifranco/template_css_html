@@ -1,0 +1,48 @@
+
+
+
+/** Variaveis - projeto - Front BOX**/
+
+:root{
+    --ff-primary: 'Nunito', Helvetica, Arial, sans-serif;
+
+    --clr-green-ligth: #0bf96A;
+    --clr-pink-dark: #E10BF9;
+    --clr-pink-light: #F3A0FD;
+    --clr-white: #f5f5f5;
+}
+
+/** estilos Gerais   **/
+body{
+    background-color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited{
+    text-decoration: none;
+    color:#000;
+}
+
+
+
+/** como usar variaveis
+
+
+Declaração de variável:
+
+elemento {
+  --cor-bg-principal: brown;
+}
+Copy to Clipboard
+Utilizando a variável:
+
+elemento {
+  background-color: var(--cor-bg-principal);
+}
+
+
+**/
